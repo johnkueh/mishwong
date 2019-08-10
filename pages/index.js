@@ -4,8 +4,8 @@ import Head from "../components/head";
 const Home = () => {
   return (
     <div>
-      <Head title="Mishwong" />
-      <h1>Coming soon</h1>
+      <Head title="Mishwong | Product designer" />
+      <h1>Website coming soon</h1>
     </div>
   );
 };
