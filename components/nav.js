@@ -1,8 +1,13 @@
-import React from "react";
+import React from 'react';
+import Link from 'next/link';
 
 const Nav = () => (
   <div className="flex items-center justify-between py-6">
-    <div>Michele Wong</div>
+    <div>
+      <Link href="/">
+        <a>Michele Wong</a>
+      </Link>
+    </div>
     <div className="flex">
       <a href="#" className="link block py-4 pl-12">
         <div>Work</div>

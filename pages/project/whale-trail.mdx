@@ -1,0 +1,67 @@
+import Link from 'next/link';
+import Image from '../../components/image';
+import { withLayout, withCol } from '../../layouts/project';
+
+export default withLayout({
+  title: 'Whale Trail',
+  caption: 'Whale Trail lets users find whales and see them come to live using AR technology',
+  bgColor: '#DDEEFE',
+  coverImg: '',
+  metadata: {
+    Roles: {
+      'Product Designer': null
+    },
+    'See it live': {
+      'www.frogid.net.au': 'https://www.frogid.net.au'
+    }
+  }
+});
+
+## Setting the scene
+
+The Whales Tohora exhibition is a temporary exhibition at the Australian Museum
+in Sydney running from October 2018 to April 2019.
+
+The purpose of the project is to increase engagement during the exhibition period and to
+drive visitors to other parts of the museum. With target visitors being older kids and young adults,
+the game needed to encourage discovery and interactivity.
+
+## Challenges
+
+The first challenge was designing the storyline of the game. We had to map out the interactive experience
+so that the museum can start writing content and curating images for it.
+
+We thought it was good to feature just a few whale species; so users can spend quality time at each stop.
+Early concepts explored included a map, a family tree and a simple list.
+
+<Image
+  src="https://images.ctfassets.net/nxjaqwpc63ga/6UQRcqCif62MWUeK8seo2/26a9144aaba7dfe76a8868ed6ed11fad/Whaletrail-IA.png"
+  caption="Information Architecture Diagram"
+/>
+
+<Image
+  src="https://images.ctfassets.net/nxjaqwpc63ga/60xnldppzao4okmMa2kIEO/d81588b8c8f99068fd966cdef9971ad5/Whaletrail-Wireframes.png"
+  caption="Early concepts presented"
+/>
+
+## Solution
+
+We decided to present the game as a simple list. Because the whales are scattered in different buildings in the Australian Museum,
+having a large map on a small screen will introduce unnecessary clutter. A family tree feels very scientific and uninviting.
+With a simple list, the whale illustrations stand out more and there is a clear call to action (tap on a whale to get to know it).
+
+At each stop, users can see the whale come to live, read fun facts, listen to the sound of whales,
+answer a quiz to test their knowledge and get to know the whale’s family. To bring the whale to live,
+they look for a label with the image of the whale and a QR code. Then it's as simple as scanning the QR code
+with their phone’s camera to see it come alive in the museum.
+
+<Image
+  src="https://downloads.ctfassets.net/nxjaqwpc63ga/5oMnksL44MWOcGme8cCo4G/27f7b55bb40cbd504605d8b3f27e9cb8/WhaleTrail-sml2.gif"
+  caption="Byline"
+/>
+
+<Link href="/">
+  <a className="swoosh" target="_new">
+    Back to portfolio
+  </a>
+</Link>

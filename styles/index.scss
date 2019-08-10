@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700|Work+Sans:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700|Work+Sans:400,600,700&display=swap');
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -22,6 +22,27 @@ h2 {
   @apply font-headings;
 }
 
+.content {
+  h2 {
+    @apply text-2xl;
+    @apply font-bold;
+    @apply pt-12;
+    @apply pb-2;
+  }
+  p {
+    @apply text-lg;
+    @apply py-3;
+  }
+  .swoosh {
+    @apply mt-5;
+    display: block;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      transform: translateX(10px);
+      transition: all 0.2s ease-in-out;
+    }
+  }
+}
 @tailwind components;
 
 @tailwind utilities;

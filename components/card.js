@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import Link from 'next/link';
 
 const Card = ({ title, desc, link, bgColor }) => (
   <div
@@ -7,9 +8,11 @@ const Card = ({ title, desc, link, bgColor }) => (
   >
     <h2 className="text-3xl font-bold">{title}</h2>
     <p className="text-lg my-5">{desc}</p>
-    <a className="font-bold" href={link}>
-      Read more
-    </a>
+    <Link href={link}>
+      <a className="font-bold" href={link}>
+        Read more
+      </a>
+    </Link>
   </div>
 );
 
