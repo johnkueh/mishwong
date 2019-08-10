@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700|Work+Sans:400,700&display=swap");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@tailwind base;
+
+html {
+  @apply h-screen;
+  @apply font-body;
+}
+
+body {
+  @apply h-screen;
+  color: #212121;
+}
+
+h1,
+h2 {
+  @apply font-headings;
+}
+
+@tailwind components;
+
+@tailwind utilities;
