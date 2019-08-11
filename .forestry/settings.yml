@@ -7,9 +7,9 @@ sections:
 - type: directory
   path: pages/project
   label: Projects
-  create: all
+  create: documents
   match: "**/*"
-  new_doc_ext: ".mdx"
+  new_doc_ext: mdx
 upload_dir: static
 public_path: "/static"
 front_matter_path: ''
