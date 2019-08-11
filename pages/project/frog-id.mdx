@@ -1,34 +1,21 @@
----
-title: FrogID
-background_color: "#FCEAE4"
-caption: Citizen science project
-cover_image: ''
-project_info:
-- title: Roles
-  tags:
-  - Product designer
-- title: See it live
-  tags: []
+import Link from 'next/link';
+import Image from '../../components/image';
+import { withLayout, withCol } from '../../layouts/project';
 
----
-    import Link from 'next/link';
-    import Image from '../../components/image';
-    import { withLayout, withCol } from '../../layouts/project';
-    
-    export default withLayout({
-      title: 'Whale Trail',
-      caption: 'Whale Trail lets users find whales and see them come to live using AR technology',
-      bgColor: '#DDEEFE',
-      coverImg: '',
-      metadata: {
-        Roles: {
-          'Product Designer': null
-        },
-        'See it live': {
-          'www.frogid.net.au': 'https://www.frogid.net.au'
-        }
-      }
-    });
+export default withLayout({
+  title: 'Whale Trail',
+  caption: 'Whale Trail lets users find whales and see them come to live using AR technology',
+  bgColor: '#DDEEFE',
+  coverImg: '',
+  metadata: {
+    Roles: {
+      'Product Designer': null
+    },
+    'See it live': {
+      'www.frogid.net.au': 'https://www.frogid.net.au'
+    }
+  }
+});
 
 ## Suggestions
 
