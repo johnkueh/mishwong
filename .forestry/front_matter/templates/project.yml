@@ -28,8 +28,7 @@ fields:
     maxSize: 250
   label: Cover Image
 - name: project_info
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
   - name: title
     type: text
@@ -40,6 +39,10 @@ fields:
     type: tag_list
     default: []
     label: Tags
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Project Info
 pages:
 - pages/project/test-title.mdx
