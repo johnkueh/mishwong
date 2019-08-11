@@ -8,6 +8,7 @@ import Card from '../components/card';
 import { frontMatter } from './project/*.mdx';
 
 const Home = () => {
+  const cards = orderBy(frontMatter.filter(page => page.show_on_homepage), 'display_order');
   return (
     <div className="container mx-auto px-8">
       <Head title="Mishwong | Product designer" />
@@ -19,20 +20,15 @@ const Home = () => {
         imgUrl="/static/order-completed-5.png"
       />
       <div className="lg:my-16 flex flex-wrap justify-between">
-        {orderBy(
-          frontMatter
-            .filter(page => page.show_on_homepage)
-            .map(page => (
-              <Card
-                key={page.__resourcePath}
-                bgColor={page.background_color}
-                title={page.title}
-                desc={page.caption}
-                link={formatPath(page.__resourcePath)}
-              />
-            )),
-          'display_order'
-        )}
+        {cards.map(page => (
+          <Card
+            key={page.__resourcePath}
+            bgColor={page.background_color}
+            title={page.title}
+            desc={page.caption}
+            link={formatPath(page.__resourcePath)}
+          />
+        ))}
       </div>
       <Footer />
     </div>

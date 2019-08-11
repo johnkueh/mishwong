@@ -29,9 +29,20 @@ h2 {
     @apply pt-12;
     @apply pb-2;
   }
+  ul li,
   p {
     @apply text-lg;
+  }
+  p {
     @apply py-3;
+  }
+  ul li {
+    &:before {
+      content: '•';
+      @apply mr-3;
+    }
+    @apply flex;
+    @apply my-2;
   }
   img {
     @apply mx-auto;
