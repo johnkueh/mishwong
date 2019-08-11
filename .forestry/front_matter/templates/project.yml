@@ -15,6 +15,19 @@ fields:
       file: 
       path: 
   label: Layout
+- name: show_on_homepage
+  type: boolean
+  label: Show on homepage
+- name: display_order
+  type: number
+  label: Display order
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: title
   type: text
   config:
@@ -55,18 +68,5 @@ fields:
     max: 
     labelField: 
   label: Project Info
-- name: show_on_homepage
-  type: boolean
-  label: Show on homepage
-- name: display_order
-  type: number
-  label: Display order
-  description: ''
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
 pages:
 - pages/project/guidepanels.mdx
