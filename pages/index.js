@@ -5,7 +5,7 @@ import Nav from '../components/nav';
 import Footer from '../components/footer';
 import Jumbo from '../components/jumbo';
 import Card from '../components/card';
-import { frontMatter } from './project/*.mdx';
+import { frontMatter } from './project/*.md';
 
 const Home = () => {
   const cards = orderBy(frontMatter.filter(page => page.show_on_homepage), 'display_order');
@@ -15,7 +15,7 @@ const Home = () => {
       <Nav />
       <Jumbo
         title="Hello."
-        desc="I’m Michele, a product designer based in sunny Sydney!. I enjoy creating
+        desc="I’m Michele, a product designer based in sunny Sydney. I enjoy creating
         user-centered and delightful digital products."
         imgUrl="/static/order-completed-5.png"
       />
@@ -36,7 +36,7 @@ const Home = () => {
 };
 
 function formatPath(p) {
-  return p.replace(/\.mdx$/, '');
+  return p.replace(/\.md$/, '');
 }
 
 export default Home;
