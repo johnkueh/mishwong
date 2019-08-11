@@ -1,10 +1,10 @@
 const withCss = require('@zeit/next-css');
 const withSass = require('@zeit/next-sass');
-const withMdxFm = require('next-mdx-frontmatter')({
+const withMdxEnhanced = require('next-mdx-enhanced')({
   extension: /\.mdx?$/
 });
 
-module.exports = withMdxFm(
+module.exports = withMdxEnhanced(
   withSass(
     withCss({
       pageExtensions: ['js', 'jsx', 'md', 'mdx']
