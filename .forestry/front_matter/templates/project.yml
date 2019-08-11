@@ -69,5 +69,5 @@ fields:
     labelField: 
   label: Project Info
 pages:
-- pages/project/whale-trail.mdx
 - pages/project/frogid.mdx
+- pages/project/whale-trail.mdx
