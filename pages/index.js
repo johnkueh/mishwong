@@ -4,8 +4,10 @@ import Nav from '../components/nav';
 import Footer from '../components/footer';
 import Jumbo from '../components/jumbo';
 import Card from '../components/card';
+import { frontMatter } from './project/*.mdx';
 
 const Home = () => {
+  console.log(frontMatter);
   return (
     <div className="container mx-auto px-8">
       <Head title="Mishwong | Product designer" />
@@ -17,34 +19,23 @@ const Home = () => {
         imgUrl="/static/order-completed-5.png"
       />
       <div className="lg:my-16 flex flex-wrap justify-between">
-        <Card
-          bgColor="#DDEEFE"
-          title="Whale Trail"
-          desc="Whale Trail lets users find whales and see them come to live using AR technology."
-          link="/project/whale-trail"
-        />
-        <Card
-          bgColor="#FCEAE4"
-          title="FrogID"
-          desc="FrogID is a national citizen science project that is helping us learn more Whale Trail lets users find whales and see them come live using AR technology."
-          link="/project/frog-id"
-        />
-        <Card
-          bgColor="#F9F6CC"
-          title="Project Title"
-          desc="Whale Trail lets users find whales and see them come to live using AR technology."
-          link="http://google.com"
-        />
-        <Card
-          bgColor="#DEF5F1"
-          title="Project Title"
-          desc="FrogID is a national citizen science project that is helping us learn more Whale Trail lets users find whales and see them come live using AR technology."
-          link="http://google.com"
-        />
+        {frontMatter.map(page => (
+          <Card
+            key={page.__resourcePath}
+            bgColor={page.background_color}
+            title={page.title}
+            desc={page.caption}
+            link={formatPath(page.__resourcePath)}
+          />
+        ))}
       </div>
       <Footer />
     </div>
   );
 };
+
+function formatPath(p) {
+  return p.replace(/\.mdx$/, '');
+}
 
 export default Home;

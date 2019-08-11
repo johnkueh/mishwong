@@ -3,7 +3,7 @@ import Head from '../components/head';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
 
-export default ({ title, caption, background_color }) => {
+export default ({ title, caption, background_color, project_info }) => {
   return ({ children }) => {
     return (
       <>
@@ -20,10 +20,40 @@ export default ({ title, caption, background_color }) => {
           </div>
         </div>
         <div className="container mx-auto px-10 xl:mt-20 xl:w-3/5">
+          <Metadata metadata={project_info} />
           <div className="content mb-20">{children}</div>
           <Footer />
         </div>
       </>
     );
   };
+};
+
+const Metadata = ({ metadata = [] }) => {
+  return (
+    <div className="metadata md:float-right pt-16 md:p-16">
+      {metadata.map(({ title, list_item = [] }, idx) => (
+        <div key={title} className={`meta mb-5 pb-5 ${metadata.length !== idx + 1 && 'border-b'}`}>
+          <h3 className="text-lg font-semibold mb-2">{title}</h3>
+          <ul>
+            {list_item.map(item => (
+              <a key={item}>{item}</a>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+const Links = ({ links }) => {
+  return (
+    <ul>
+      {Object.keys(links).map(label => (
+        <li key={label}>
+          <a href={links[label]}>{label}</a>
+        </li>
+      ))}
+    </ul>
+  );
 };
