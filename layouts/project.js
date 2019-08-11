@@ -17,7 +17,7 @@ const Project = ({ metadata = [], title, caption, bgColor, children }) => (
         </div>
       </div>
     </div>
-    <div className="container mx-auto px-10 xl:w-3/5">
+    <div className="container mx-auto px-10 xl:mt-20 xl:w-3/5">
       <Metadata metadata={metadata} />
       <div className="content mb-20">{children}</div>
       <Footer />
