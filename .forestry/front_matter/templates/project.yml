@@ -4,11 +4,11 @@ hide_body: false
 fields:
 - name: layout
   type: select
-  default: Project
+  default: project-page
   config:
     required: true
     options:
-    - Project
+    - project-page
     source:
       type: simple
       section: 
