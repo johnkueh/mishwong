@@ -33,6 +33,12 @@ h2 {
     @apply text-lg;
     @apply py-3;
   }
+  img {
+    @apply mx-auto;
+    &:after {
+      content: 'caption';
+    }
+  }
   .swoosh {
     @apply mt-5;
     display: block;

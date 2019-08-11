@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import orderBy from 'lodash/orderBy';
 import Head from '../components/head';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
@@ -7,7 +8,6 @@ import Card from '../components/card';
 import { frontMatter } from './project/*.mdx';
 
 const Home = () => {
-  console.log(frontMatter);
   return (
     <div className="container mx-auto px-8">
       <Head title="Mishwong | Product designer" />
@@ -19,15 +19,20 @@ const Home = () => {
         imgUrl="/static/order-completed-5.png"
       />
       <div className="lg:my-16 flex flex-wrap justify-between">
-        {frontMatter.map(page => (
-          <Card
-            key={page.__resourcePath}
-            bgColor={page.background_color}
-            title={page.title}
-            desc={page.caption}
-            link={formatPath(page.__resourcePath)}
-          />
-        ))}
+        {orderBy(
+          frontMatter
+            .filter(page => page.show_on_homepage)
+            .map(page => (
+              <Card
+                key={page.__resourcePath}
+                bgColor={page.background_color}
+                title={page.title}
+                desc={page.caption}
+                link={formatPath(page.__resourcePath)}
+              />
+            )),
+          'display_order'
+        )}
       </div>
       <Footer />
     </div>
