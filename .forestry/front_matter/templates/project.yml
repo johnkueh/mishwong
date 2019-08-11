@@ -68,5 +68,3 @@ fields:
     max: 
     labelField: 
   label: Project Info
-pages:
-- pages/project/guidepanels.mdx
