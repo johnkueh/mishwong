@@ -1,6 +1,24 @@
 ---
 label: Project
 hide_body: false
-fields: []
-pages:
-- pages/project/frog-id.mdx
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: caption
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Caption
+- name: background_color
+  type: color
+  label: Background Color
+  config:
+    required: false
+    color_format: Hex
