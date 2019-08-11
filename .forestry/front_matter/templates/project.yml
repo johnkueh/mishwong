@@ -2,69 +2,68 @@
 label: Project
 hide_body: false
 fields:
-  - name: layout
-    type: select
-    default: project-page
-    config:
-      options:
-        - project-page
-      source:
-        type: simple
-        section:
-        file:
-        path:
-    label: Layout
-  - name: show_on_homepage
-    type: boolean
-    label: Show on homepage
-  - name: display_order
-    type: number
-    label: Display order
-    description: ''
-    default: 0
-    config:
-      min:
-      max:
-      step:
+- name: layout
+  type: select
+  default: project-page
+  config:
+    options:
+    - project-page
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
+- name: show_on_homepage
+  type: boolean
+  label: Show on homepage
+- name: display_order
+  type: number
+  label: Display order
+  description: ''
+  default: 0
+  config:
+    min: 
+    max: 
+    step: 
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: caption
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Caption
+- name: background_color
+  type: color
+  label: Background Color
+  config:
+    required: false
+    color_format: Hex
+- name: project_info
+  type: field_group_list
+  fields:
   - name: title
     type: text
-    config:
-      required: false
+    config: 
     label: Title
-  - name: caption
-    type: textarea
-    default: ''
+  - name: list_item
+    type: list
     config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Caption
-  - name: background_color
-    type: color
-    label: Background Color
-    config:
-      required: false
-      color_format: Hex
-  - name: project_info
-    type: field_group_list
-    fields:
-      - name: title
-        type: text
-        config:
-        label: Title
-      - name: list_item
-        type: list
-        config:
-          use_select: false
-          min:
-          max:
-        label: List Item
-    config:
-      min:
-      max:
-      labelField:
-    label: Project Info
+      use_select: false
+      min: 
+      max: 
+    label: List Item
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Project Info
 pages:
-  - pages/project/whale-trail.mdx
-  - pages/project/frogid.mdx
+- pages/project/whale-trail.mdx
