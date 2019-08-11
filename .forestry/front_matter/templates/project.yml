@@ -2,6 +2,19 @@
 label: Project
 hide_body: false
 fields:
+- name: layout
+  type: select
+  default: Project
+  config:
+    required: true
+    options:
+    - Project
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
 - name: title
   type: text
   config:
