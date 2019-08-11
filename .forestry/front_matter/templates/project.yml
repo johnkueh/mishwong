@@ -35,5 +35,25 @@ fields:
   config:
     required: false
     color_format: Hex
+- name: project_info
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: list_item
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: List Item
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Project Info
 pages:
 - pages/project/guidepanels.mdx
