@@ -2,3 +2,4 @@ node_modules
 .next
 .mdx-data
 /.DS_Store
+/pages/.DS_Store
