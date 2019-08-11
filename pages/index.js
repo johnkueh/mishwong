@@ -15,7 +15,7 @@ const Home = () => {
       <Nav />
       <Jumbo
         title="Hello."
-        desc="I’m Michele, a product designer based in sunny Sydney. I enjoy creating
+        desc="I’m Michele, a product designer based in sunny Sydney!. I enjoy creating
         user-centered and delightful digital products."
         imgUrl="/static/order-completed-5.png"
       />
