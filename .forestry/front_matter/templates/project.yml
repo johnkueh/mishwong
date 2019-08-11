@@ -65,5 +65,3 @@ fields:
     max: 
     labelField: 
   label: Project Info
-pages:
-- pages/project/whale-trail.mdx

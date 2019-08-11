@@ -9,7 +9,7 @@ sections:
   label: Projects
   create: documents
   match: "**/*"
-  new_doc_ext: mdx
+  new_doc_ext: md
 upload_dir: static
 public_path: "/static"
 front_matter_path: ''
