@@ -13,3 +13,5 @@ fields:
   config:
     required: false
     color_format: Hex
+pages:
+- pages/project/test-title.mdx
