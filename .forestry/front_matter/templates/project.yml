@@ -7,11 +7,42 @@ fields:
   config:
     required: false
   label: Title
+- name: caption
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Caption
 - name: background_color
   type: color
   label: Background Color
   config:
     required: false
     color_format: Hex
+- name: cover_image
+  type: file
+  config:
+    maxSize: 250
+  label: Cover Image
+- name: project_info
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: tags
+    type: tag_list
+    default: []
+    label: Tags
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Project Info
 pages:
 - pages/project/test-title.mdx
