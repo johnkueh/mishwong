@@ -1,0 +1,17 @@
+---
+label: Project
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: background_color
+  type: color
+  label: Background Color
+  config:
+    required: false
+    color_format: Hex
+pages:
+- pages/project/test-title.mdx
