@@ -5,10 +5,12 @@ import Nav from '../components/nav';
 import Footer from '../components/footer';
 import Jumbo from '../components/jumbo';
 import Card from '../components/card';
-import { frontMatter } from './project/*.md';
+import frontMatter from '../static/content/*.md';
 
 const Home = () => {
-  const cards = orderBy(frontMatter.filter(page => page.show_on_homepage), 'display_order');
+  const attributes = frontMatter.map(fm => fm.attributes);
+  const cards = orderBy(attributes.filter(att => att.show_on_homepage), 'display_order');
+
   return (
     <div className="container mx-auto px-8">
       <Head title="Mishwong | Product designer" />
@@ -22,11 +24,11 @@ const Home = () => {
       <div className="lg:my-16 flex flex-wrap justify-between">
         {cards.map(page => (
           <Card
-            key={page.__resourcePath}
+            key={page.slug}
             bgColor={page.background_color}
             title={page.title}
             desc={page.caption}
-            link={formatPath(page.__resourcePath)}
+            link={`/project/${page.slug}`}
           />
         ))}
       </div>
@@ -34,9 +36,5 @@ const Home = () => {
     </div>
   );
 };
-
-function formatPath(p) {
-  return p.replace(/\.md$/, '');
-}
 
 export default Home;
