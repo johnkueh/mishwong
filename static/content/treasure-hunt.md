@@ -19,4 +19,8 @@ Australian Museum’s new permanent gallery, The Westpac Long Gallery showcases 
 
 ## Challenges
 
-Creating a treasure hunt game that was fun but also delivered learnings that were easy to understand.
+Creating a treasure hunt game that was fun and  but also delivered learnings that were easy to understand.
+
+## Solution
+
+Kids would pick a field that want to become an expert in (ie. entomology or marine biology). They then find treasures using a hot-cold indicator (with the help of bluetooth powered beacons) as they embark on a treasure hunt. Once a treasure is found, they would answer a question correctly to collect the treasure. When all treasures in that set are collected, they will become an expert in that field.
