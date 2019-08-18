@@ -5,15 +5,15 @@ display_order: '1'
 slug: whale-trail
 title: Whale Trail
 caption: Find whales in the Australian Museum and see them come to live with AR technology.
-background_color: '#DDEEFE'
-cover_image: '/static/guidepanels-coverimage-1.png'
+background_color: "#DDEEFE"
+cover_image: "/static/whaletrail-coverimage.png"
 project_info:
-  - title: Role
-    list_item:
-      - Product designer
-      - Illustrator
----
+- title: Role
+  list_item:
+  - Product designer
+  - Illustrator
 
+---
 ## Setting the scene
 
 The Whales Tohora exhibition is a temporary exhibition at the Australian Museum in Sydney running from October 2018 to April 2019. The purpose of the project is to increase engagement during the exhibition period and to drive visitors to other parts of the museum. With target visitors being older kids and young adults, the game needed to encourage discovery and interactivity.
