@@ -28,13 +28,9 @@ The goal of the landing pages was to create an emotional connection between user
 
 One of the challenges was defining the structure of the website and limiting the site to only a few pages as necessary. Each page should have a clear call-to-action (CTA) and not be overloaded with information.
 
-![](https://images.ctfassets.net/nxjaqwpc63ga/5sIUdT0Iw0OiOSwggScmsI/a8d9133d4cd58ab00c9ced2bf840e15e/FrogID-IA.png)
+![](https://images.ctfassets.net/nxjaqwpc63ga/5sIUdT0Iw0OiOSwggScmsI/a8d9133d4cd58ab00c9ced2bf840e15e/FrogID-IA.png)<div class="caption">Information Architecture</div>
 
-    <caption>Information Architecture</caption>
-
-![](https://images.ctfassets.net/nxjaqwpc63ga/24tnstzCcwM0WieWckqCwa/f397cc0f3f36b6ad28a616d60dcda78c/FrogID-Wireframes.png)
-
-    <caption>Wireframes</caption>
+![](https://images.ctfassets.net/nxjaqwpc63ga/24tnstzCcwM0WieWckqCwa/f397cc0f3f36b6ad28a616d60dcda78c/FrogID-Wireframes.png)<div class="caption">Wireframes</div>
 
 ## Learnings
 
