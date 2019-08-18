@@ -56,6 +56,11 @@ fields:
   config:
     maxSize: 250
   label: Cover Image
+- name: card_image
+  type: file
+  config:
+    maxSize: 250
+  label: Card Image
 - name: project_info
   type: field_group_list
   fields:
