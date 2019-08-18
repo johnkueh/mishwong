@@ -70,3 +70,5 @@ fields:
     max: 
     labelField: 
   label: Project Info
+pages:
+- static/content/treasure-hunt.md
