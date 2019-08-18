@@ -37,3 +37,11 @@ Kids would pick a field that want to become an expert in (ie. entomology or mari
 ![](/static/TreasureHunt-Screen_Designs.png)
 
 <div class="caption">Screen designs</div>
+
+![](/static/TreasureHunt-Character_illustrations.png)
+
+<div class="caption">Character illustrations</div>
+
+![](/static/TreasureHunt-Treasure_illustrations.png)
+
+<div class="caption">Treasure illustrations</div>
