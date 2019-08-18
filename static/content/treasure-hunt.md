@@ -1,6 +1,6 @@
 ---
 layout: project-page
-show_on_homepage: false
+show_on_homepage: true
 display_order: '3'
 slug: treasure-hunt
 title: Treasure Hunt
