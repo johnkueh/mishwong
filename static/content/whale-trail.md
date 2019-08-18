@@ -31,7 +31,7 @@ Some of the early concepts we explored included a whale trail map, a family tree
 
 ![](/static/whale_wire.png)
 
-    <caption>Wireframes</caption>
+<div class="caption">Wireframes</div>
 
 ## Solution
 
@@ -41,4 +41,4 @@ At each stop, users can see the whale come to live, read fun facts, listen to th
 
 ![](/static/whale_proto.gif)
 
-    <caption>Prototype</caption>
+<div class="caption">Prototype</div>
