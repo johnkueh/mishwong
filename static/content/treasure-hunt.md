@@ -6,6 +6,7 @@ slug: treasure-hunt
 title: Treasure Hunt
 caption: Kids follow a map to find treasures and become experts in a field.
 background_color: "#F2F2F2"
+cover_image: ""
 project_info:
 - title: Role
   list_item:
@@ -14,13 +15,14 @@ project_info:
 cover_image: ''
 
 ---
+
 ## Setting the scene
 
 Australian Museum’s new permanent gallery, The Westpac Long Gallery showcases 100 objects and 100 people that have influenced the museum, nation and region and the stories that make them treasures. We worked alongside the museum to design and build an in-app kids treasure hunt game to educate kids about these treasures in a fun and engaging way.
 
 ## Challenges
 
-Creating a treasure hunt game that was fun and  but also delivered learnings that were easy to understand.
+Creating a treasure hunt game that was fun and but also delivered learnings that were easy to understand.
 
 ## Solution
 

@@ -1,21 +1,22 @@
 ---
 layout: project-page
 show_on_homepage: true
-display_order: "2"
+display_order: '2'
 slug: frogid
 title: FrogID
 caption: A national citizen science project to help us learn more about Australia’s
   frogs.
-background_color: "#FCEAE4"
+background_color: '#FCEAE4'
+cover_image: ''
 project_info:
-- title: Roles
-  list_item:
-  - Product designer
-- title: See it live
-  list_item:
-  - https://www.frogid.net.au
-
+  - title: Roles
+    list_item:
+      - Product designer
+  - title: See it live
+    list_item:
+      - https://www.frogid.net.au
 ---
+
 ## Setting the stage
 
 FrogID is Australia’s national citizen science project that will help provide valuable data for the protection and conservation of frogs. Anyone will be able to record the sound of frogs calling on their phones with the FrogID mobile app wherever they are at.
@@ -36,9 +37,9 @@ One of the challenges was defining the structure of the website and limiting the
 
 This project made me think more deeply about landing pages. Some things that stuck with me are:
 
-* The importance of visual hierarchy - making sure the headlines and main call-to-action stand out first and foremost. Also, that each content type has its own place and not compete or drown out one another.
-* The use of white space - breathing space between sections creates a pleasant browsing experience and enhances readability
-* Content is king - to consider what a content's purpose is and the best format to convey it
+- The importance of visual hierarchy - making sure the headlines and main call-to-action stand out first and foremost. Also, that each content type has its own place and not compete or drown out one another.
+- The use of white space - breathing space between sections creates a pleasant browsing experience and enhances readability
+- Content is king - to consider what a content's purpose is and the best format to convey it
 
 ![](https://images.ctfassets.net/nxjaqwpc63ga/gmTEb1JXd6umg6SiwkcG6/d69f4fb6581daf4a817f7e1602d0a3f9/FrogID-Homepage.png)
 
