@@ -23,3 +23,7 @@ I first define the colour palette so that the illustrations will appear as a set
 ![](/static/gp_1.png)
 
 <div class="caption">Build with ease illustrated</div>
+
+![](/static/gp_2.png)
+
+<div class="caption">Build with ease illustrated</div>
