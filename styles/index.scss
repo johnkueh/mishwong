@@ -46,9 +46,15 @@ h2 {
   }
   img {
     @apply mx-auto;
+    @apply my-8;
     &:after {
       content: 'caption';
     }
+  }
+  .caption {
+    color: #888888;
+    @apply text-center;
+    @apply -mt-8;
   }
   .swoosh {
     @apply mt-5;
