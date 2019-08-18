@@ -11,6 +11,7 @@ project_info:
   list_item:
   - Illustration
   - Product Design
+cover_image: ''
 
 ---
 ## Setting the scene
@@ -24,3 +25,11 @@ Creating a treasure hunt game that was fun and  but also delivered learnings tha
 ## Solution
 
 Kids would pick a field that want to become an expert in (ie. entomology or marine biology). They then find treasures using a hot-cold indicator (with the help of bluetooth powered beacons) as they embark on a treasure hunt. Once a treasure is found, they would answer a question correctly to collect the treasure. When all treasures in that set are collected, they will become an expert in that field.
+
+![](/static/TreasureHunt-IA.png)
+
+<div class="caption">Information Architecture diagram</div>
+
+![](/static/TreasureHunt-Wireframes.png)
+
+<div class="caption">Wireframes</div>

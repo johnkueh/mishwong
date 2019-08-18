@@ -76,5 +76,5 @@ fields:
     labelField: 
   label: Project Info
 pages:
-- static/content/guidepanels.md
 - static/content/treasure-hunt.md
+- static/content/guidepanels.md
