@@ -3,17 +3,22 @@ import Head from '../components/head';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
 
-export default ({ title, caption, background_color, project_info, children }) => {
+export default ({ title, caption, background_color, cover_image, project_info, children }) => {
   return (
     <>
       <div style={{ backgroundColor: background_color }}>
         <div className="container mx-auto px-8">
           <Head title="Mishwong | Product designer" />
           <Nav />
-          <div className="flex flex-wrap lg:flex-no-wrap items-center justify-between w-100 py-20">
+          <div className="flex flex-wrap lg:flex-no-wrap items-center justify-between w-100 mt-20">
             <div className="mb-12 md:w-full lg:mb-0 text-center">
-              <h1 className="text-5xl font-bold font-heading mb-5">{title}</h1>
+              <h1 className="text-5xl font-bold font-heading mb-3">{title}</h1>
               <p className="text-xl">{caption}</p>
+              {cover_image ? (
+                <img className="mt-10" alt="Cover" src={cover_image} />
+              ) : (
+                <div className="mb-20" />
+              )}
             </div>
           </div>
         </div>
@@ -35,7 +40,7 @@ const Metadata = ({ metadata = [] }) => {
           <h3 className="text-lg font-semibold mb-2">{title}</h3>
           <ul>
             {list_item.map(item => (
-              <a key={item}>{item}</a>
+              <li key={item}>{item}</li>
             ))}
           </ul>
         </div>
