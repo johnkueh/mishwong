@@ -11,7 +11,7 @@ export default ({ title, caption, background_color, cover_image, project_info, c
           <Head title="Mishwong | Product designer" />
           <Nav />
           <div className="flex flex-wrap lg:flex-no-wrap items-center justify-between w-100 mt-20">
-            <div className="mb-12 md:w-full lg:mb-0 text-center">
+            <div className="md:w-full mb-0 text-center">
               <h1 className="text-5xl font-bold font-heading mb-3">{title}</h1>
               <p className="text-xl">{caption}</p>
               {cover_image ? (

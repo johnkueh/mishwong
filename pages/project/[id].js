@@ -1,14 +1,11 @@
 import React from 'react';
-import { withRouter } from 'next/router';
+import { useRouter } from 'next/router';
 import Layout from '../../layouts/project-page';
 import frontMatter from '../../static/content/*.md';
 
-const Project = ({router}) => {
-  
+const Project = () => {
+  const router = useRouter();
   const slug = router.query.id; 
-
-  if(!slug) return null;
-
   const page = frontMatter.filter(page => page.attributes.slug === slug)[0];
 
   return (
@@ -16,4 +13,8 @@ const Project = ({router}) => {
   )  
 }
 
-export default withRouter(Project);
+Project.getInitialProps = async (ctx) => {
+  return {}; // Does NOT need to read query from ctx
+};
+
+export default Project;

@@ -12,6 +12,7 @@
     "next": "^9.0.2",
     "next-mdx-enhanced": "^2.0.0",
     "next-mdx-frontmatter": "^0.0.3",
+    "nprogress": "^0.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "tailwindcss": "^1.0.5"

@@ -9,12 +9,16 @@ const Nav = () => (
       </Link>
     </div>
     <div className="flex">
-      <a href="#" className="link block py-4 pl-12">
-        <div>Work</div>
-      </a>
-      <a href="#" className="link block py-4 pl-12">
-        <div>About</div>
-      </a>
+      <Link href="/">
+        <a href="/" className="link block py-4 pl-12">
+          <div>Work</div>
+        </a>
+      </Link>
+      <Link href="/about">
+        <a href="/about" className="link block py-4 pl-12">
+          <div>About</div>
+        </a>
+      </Link>
     </div>
     <style jsx>
       {`
