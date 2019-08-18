@@ -7,7 +7,7 @@ title: FrogID
 caption: A national citizen science project to help us learn more about Australia’s
   frogs.
 background_color: '#FCEAE4'
-cover_image: ''
+cover_image: '/static/guidepanels-coverimage-1.png'
 project_info:
   - title: Roles
     list_item:

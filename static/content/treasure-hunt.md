@@ -5,15 +5,13 @@ display_order: '3'
 slug: treasure-hunt
 title: Treasure Hunt
 caption: Kids follow a map to find treasures and become experts in a field.
-background_color: "#F2F2F2"
-cover_image: ""
+background_color: '#F2F2F2'
 project_info:
-- title: Role
-  list_item:
-  - Illustration
-  - Product Design
+  - title: Role
+    list_item:
+      - Illustration
+      - Product Design
 cover_image: ''
-
 ---
 
 ## Setting the scene
