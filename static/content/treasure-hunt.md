@@ -5,7 +5,7 @@ display_order: '3'
 slug: treasure-hunt
 title: Treasure Hunt
 caption: Kids follow a map to find treasures and become experts in a field.
-background_color: ''
+background_color: "#F2F2F2"
 project_info:
 - title: Role
   list_item:
@@ -33,3 +33,7 @@ Kids would pick a field that want to become an expert in (ie. entomology or mari
 ![](/static/TreasureHunt-Wireframes.png)
 
 <div class="caption">Wireframes</div>
+
+![](/static/TreasureHunt-Screen_Designs.png)
+
+<div class="caption">Screen designs</div>
