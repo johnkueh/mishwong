@@ -5,13 +5,14 @@ display_order: '4'
 slug: guide-panels
 title: GuidePanels
 caption: A content management system for visitor guide apps.
-background_color: '#F9F7E8'
-cover_image: '/static/guidepanels-coverimage-1.png'
+background_color: "#F9F7E8"
+cover_image: "/static/guidepanels-coverimage.png"
 project_info:
-  - title: Role
-    list_item: []
----
+- title: Role
+  list_item: []
+card_image: ''
 
+---
 ## Challenge
 
 Sometimes it’s not easy understanding what products can achieve through its landing page. Illustrations are key to help people come to an understanding and create a pleasant user experience. The challenge was to create a set of illustrations and icons for the landing pages and product that tell its story and is consistent throughout.
