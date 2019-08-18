@@ -13,3 +13,10 @@ project_info:
   - Product Design
 
 ---
+## Setting the scene
+
+Australian Museum’s new permanent gallery, The Westpac Long Gallery showcases 100 objects and 100 people that have influenced the museum, nation and region and the stories that make them treasures. We worked alongside the museum to design and build an in-app kids treasure hunt game to educate kids about these treasures in a fun and engaging way.
+
+## Challenges
+
+Creating a treasure hunt game that was fun but also delivered learnings that were easy to understand.
