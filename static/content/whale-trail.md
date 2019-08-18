@@ -6,12 +6,13 @@ slug: whale-trail
 title: Whale Trail
 caption: Find whales in the Australian Museum and see them come to live with AR technology.
 background_color: "#DDEEFE"
-cover_image: "/static/whaletrail-coverimage.png"
+cover_image: "/static/whaletrail-coverimage-1.png"
 project_info:
 - title: Role
   list_item:
   - Product designer
   - Illustrator
+card_image: ''
 
 ---
 ## Setting the scene
