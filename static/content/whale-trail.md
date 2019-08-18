@@ -23,7 +23,7 @@ Using VR technology, users were able to partake in experiences the average museu
 
 One of the major challenges was the content strategy and game storyline. We had to map out the interactive experience so that the museum can start writing content and curating images for it and we can start bringing the idea to live.
 
-Some of the early concepts we explored included a whale trail map, a family tree and a simple list of whales. 
+Some of the early concepts we explored included a whale trail map, a family tree and a simple list of whales.
 
 ![](/static/whale_ia.png)
 
