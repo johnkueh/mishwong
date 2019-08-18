@@ -51,6 +51,11 @@ fields:
   config:
     required: false
     color_format: Hex
+- name: cover_image
+  type: file
+  config:
+    maxSize: 250
+  label: Cover Image
 - name: project_info
   type: field_group_list
   fields:
