@@ -27,7 +27,7 @@ Some of the early concepts we explored included a whale trail map, a family tree
 
 ![](/static/whale_ia.png)
 
-<caption>Information architecture</caption>
+<div class="caption">Information architecture</div>
 
 ![](/static/whale_wire.png)
 
