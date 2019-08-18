@@ -42,4 +42,4 @@ This project made me think more deeply about landing pages. Some things that stu
 
 ![](https://images.ctfassets.net/nxjaqwpc63ga/gmTEb1JXd6umg6SiwkcG6/d69f4fb6581daf4a817f7e1602d0a3f9/FrogID-Homepage.png)
 
-    <caption>Prototype</caption>
+<div class="caption">Homepage</div>
