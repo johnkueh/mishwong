@@ -76,7 +76,7 @@ fields:
     labelField: 
   label: Project Info
 pages:
+- static/content/treasure-hunt.md
 - static/content/whale-trail.md
 - static/content/frog-id.md
-- static/content/treasure-hunt.md
 - static/content/guidepanels.md
