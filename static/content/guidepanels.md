@@ -9,7 +9,8 @@ background_color: "#F9F7E8"
 cover_image: "/static/guidepanels-coverimage.png"
 project_info:
 - title: Role
-  list_item: []
+  list_item:
+  - Illustration
 card_image: ''
 
 ---
