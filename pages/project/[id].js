@@ -13,8 +13,4 @@ const Project = () => {
   )  
 }
 
-Project.getInitialProps = async (ctx) => {
-  return {}; // Does NOT need to read query from ctx
-};
-
 export default Project;
