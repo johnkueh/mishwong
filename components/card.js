@@ -8,7 +8,7 @@ const Card = ({ title, desc, link, bgColor }) => (
   >
     <h2 className="text-3xl font-bold">{title}</h2>
     <p className="text-lg my-5">{desc}</p>
-    <Link href={link}>
+    <Link href="/project/[id]" as={link}>
       <a className="font-bold" href={link}>
         Read more
       </a>
