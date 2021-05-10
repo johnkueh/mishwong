@@ -8,7 +8,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "babel-plugin-import-glob-array": "^0.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "next": "^9.0.2",
     "next-mdx-enhanced": "^2.0.0",
     "next-mdx-frontmatter": "^0.0.3",
